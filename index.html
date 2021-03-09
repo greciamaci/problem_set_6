@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title> About Me </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="dist/main.js"></script>
+    </head>
+
+    <body>
+        <svg id="svg" width="100%" height="100%" viewBox="0 0 1000 150"></svg>
+        <script>
+            var s = Snap("#svg")
+            var paper = s.text(0,120, ["ROCK CLIMBING"])
+            paper.attr({
+                fill: '#404477',
+                stroke: '#ffac89',
+                strokeWidth:2, 
+                fontSize: '135px',
+            })
+
+        </script>
+    <header>
+        <h1>My Favorite Pastime</h1>
+        <p>My name is Grecia Macias and I love rock climbing. To me it's like trying to solve a puzzle where each step requires strategy and your time limit 
+            is dependent on your physical strength and endurance. When I was an undergraduate it was something I used to do on a weekly basis since my university
+            had a rock climbing gym. After I graduated and went into my Master's program I wasn't able to continue but since I moved back home, I am finally able 
+            to go again after almost two years. I missed it a lot!
+        </p>
+    </header>    
+
+    <main>
+        <h2>Types of Rock Climbing</h2>
+        <p>The rock climbing gyms I go to have 3 basic types of rock climbing available:</p>
+
+        <div class="container">
+            <div class="row">      
+            <div class="col-sm">      
+        <ul>
+            
+            <li>Top Rope</li>
+                <ul>
+                    <li>
+                        <p>This type of climbing requires you to wear a harness and has a pulley system in place that helps you come back down when you're done climbing. You can choose to 
+                            climb with a 'manual' system where you have a partner and they are using the rope to help guide you up and bring you back down, or you can choose the automatic machines. 
+                            Personally, the automatic machines are my favorite because I don't really have a rock climbing partner and they are more challenging. With a person, if you fall, they 
+                            catch you and you can continue on from where you fell. With the automatics however, you fall all the way to the ground and you have to start from the beginning.</p>
+                    </li>
+                    <li>
+                        <p>In these pictures I am climbing 5.6 to 5.7 routes which are the easiest for top rope climbing but are perfect for takin it easy as I get back into it (as well as for building 
+                            up those calluses again).</p>
+                    </li>
+                    <li>
+                        <img src='imgs/2.jpg' alt="Planning my next steps while climbing the route"/>
+                        <img src='imgs/5.jpg' alt="Climbing halfway up a top rope route"/>
+            
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="col-sm">
+                <li>Bouldering</li>
+                <ul>
+                    <li>
+                        <p>This type of climbing is a free climb where you are not attached to any ropes or harnesses. We have padding directly below the walls and are only allowed to
+                        free climb up to 14 feet since it is dangerous to fall any higher than that. Since bouldering tends to be very dynamic and has shorter climbing distances, it 
+                        requires a lot of strength. Needless to say, this was <em><strong>not</strong></em> the first climbing type I learned.</p>
+                    </li>
+                    <li>
+                        <p>The picture below is from when I was learning to boulder. I was not very comfortable falling yet so it took a lot of time for me to get used to.</p>
+                    </li>
+                    <li>
+                        <img src='imgs/4.jpg' alt="Completing a bouldering route"/>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-sm">
+            <li>Lead</li>
+                <ul> 
+                    <li>
+                        <p>I have never tried lead, mostly because I don't have a rock climbing partner, but it is probably the most challenging of the three. You have to be very confident in 
+                        your climbing abilities. I can't speak too much on lead climbing, I just know that you are basically taking yourself up by putting your rope through attachments on the wall. 
+                        If you fall, you fall the difference in the length of where you are and where you last put your rope through the attachment. I hope to be able to try this someday.</p>
+                    </li>
+                </ul>
+            </div>
+        </ul>
+    </div>
+        </div>
+        </div>
+        </main>
+        
+        <footer>
+            <p>&copy; Grecia Macias - SI 579 Winter 2021</p>
+        </footer>
+    </body>    
+</html>
